@@ -7,12 +7,10 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(yellow, rgb(182, 11, 182));
 }
 
-button {
-  font-size: 7px;
-}
+
 
 #main-content {
   position: relative;
@@ -33,5 +31,22 @@ button {
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: 2px 5px 5px#333;
+}
+#remove{
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow:2px 5px 5px #333 ;
+}
+#remove:hover{
+  background: darkred;
+}
+#submit:hover{
+  box-shadow: #333;
+  color: #000;
+
 }
